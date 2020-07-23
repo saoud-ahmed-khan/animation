@@ -39,4 +39,4 @@ jobs:
     
     # Deploy Surge
     - name: Deploy React App to Surge
-      run: surge ./build shortAnimation-react-app.surge.sh --token ${{ secrets.MYSECRET }}
+      run: surge ./build AnimationBasics-react-app.surge.sh --token ${{ secrets.MYSECRET }}
