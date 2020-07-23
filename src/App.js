@@ -194,13 +194,13 @@ function App() {
     <div className="sky"></div>
     <div className="desert"></div>
     <div className="cloud"  ref={cloud1}>
-        <img src={'https://pngimg.com/uploads/cloud/cloud_PNG16.png'} width="300px" height="35px"/>
+        <img src={'https://pngimg.com/uploads/cloud/cloud_PNG16.png'} alt="cloud1" width="300px" height="35px"/>
     </div>
     <div className="cloud1" ref={cloud2}>
-        <img src={'https://d1kn32quvsf7z3.cloudfront.net/images/osdVJ7vPlZfW_v2.png'} width="300px" height="35px"/>
+        <img src={'https://d1kn32quvsf7z3.cloudfront.net/images/osdVJ7vPlZfW_v2.png'} alt="cloud2" width="300px" height="35px"/>
     </div>
     <div className="cloud2" ref={cloud3}>
-        <img src={'https://pngimg.com/uploads/cloud/cloud_PNG16.png'} width="400px" height="45px"/>
+        <img src={'https://pngimg.com/uploads/cloud/cloud_PNG16.png'} width="400px" alt="cloud3" height="45px"/>
     </div>
     <div className="sea">
     </div>
